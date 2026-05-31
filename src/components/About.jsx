@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-full min-h-screen bg-[#CDEA68] rounded-t-3xl'>
+    <div data-scroll data-scroll-section data-scroll-speed="1" className='w-full min-h-screen bg-[#CDEA68] rounded-t-3xl relative z-20 -mt-90'>
       <p className='py-20 pl-20 pr-40 text-[9vh] font-[Founders_Grotesk] leading-[4vw] tracking-tight '>
         We craft category-defining presentations, brand identities, and digital experiences that <span className='underline underline-offset-8 decoration-2'>drive funding, sales</span>, and <span className='underline underline-offset-8 decoration-2'>market leadership</span>.
       </p>

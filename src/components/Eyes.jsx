@@ -18,7 +18,7 @@ const Eyes = () => {
     })
     
   return (
-    <div data-scroll data-scroll-speed='.7' className='w-full h-screen'>
+    <div  className='w-full h-screen'>
         <div className='w-full h-screen relative bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")]'>
             <div className='absolute top-1/2 left-1/2 gap-10 -translate-x-[50%] -translate-y-[50%] flex'>
                 <div className='Eye-1 w-[15vw] h-[15vw] bg-amber-50 rounded-full flex justify-center items-center'>

@@ -19,8 +19,15 @@ const App = () => {
       <LandingPage />
       <Marquee />
       <About />
-      <Eyes />
-      <Featured />
+      <div className="relative h-[220vh]">
+        <div className="sticky top-0 h-screen">
+            <Eyes />
+        </div>
+
+        <div className="relative z-20">
+            <Featured />
+        </div>
+      </div>
       <Cards />
       <Footer />
     </div>  

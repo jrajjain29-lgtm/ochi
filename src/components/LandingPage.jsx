@@ -16,7 +16,7 @@ const LandingPage = () => {
                             initial={{ width: 0 }} 
                             animate={{ width: "10vw" }} 
                             transition={{ ease:[0.76, 0, 0.24, 1], duration: 1, delay: 0.2 }}
-                            className='w-[10vw] rounded-md h-[5.7vw] bg-red-500 relative '><img src="C:\Users\KHANDELWAL COMPUTER\Pictures\Screenshots\bhbhbh.png" className='' alt="" /></motion.div>)}
+                            className='w-[10vw] h-[5.7vw] rounded-md overflow-hidden relative '><img src="/bhbhbh.png" className='' alt="" /></motion.div>)}
                           <h1 className='pt-[2vw] -mb-[1vw] uppercase scale-y-[1.5] leading-[0.9] font-bold text-[6vw] font-["Founders_Grotesk"]'>{item}</h1>
                       </div>
                   </div>
